@@ -1,0 +1,12 @@
+body{
+    margin: 50px 70px 50px 70px;
+}
+h1{
+    margin: 50px 70px 50px 0px;
+    color: white;
+    background-color: black;
+}
+ul{
+    padding-left: 15px;
+}
+
