@@ -1,10 +1,13 @@
 body{
     margin: 50px 70px 50px 70px;
+    background: radial-gradient(white, gray);
 }
 h1{
+    background-color: black;    
+    background: radial-gradient(circle, yellow, green);
     margin: 50px 70px 50px 0px;
     color: white;
-    background-color: black;
+    
 }
 ul{
     padding-left: 15px;
