@@ -31,6 +31,8 @@
     display:flex;
     width: auto;
     height: 1080px;
+    background-image: url(image.jpg);
+    background-size: cover;
   }
   .links{
     display: flex;
