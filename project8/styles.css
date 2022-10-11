@@ -51,20 +51,14 @@ ul{
 }
 .box{
     display: flex;
-    width: 300px;
-    height: 362px;
-    background-color: pink;
     margin-top: 90px;
     margin-left: 90px;
-    border: 2px white solid;
-    border-radius: 5%;
+    flex-direction: column;
 }
 .button{
     display: flex;
-    width: 200px;
-    height: 60px;
-    margin-top: 362px;
-    margin-left: -160px; /*?why?*/
+    align-items: center;
+    justify-content: center;
     background-color: orange;
     border: 2px white solid;
     color: white;
@@ -73,9 +67,13 @@ ul{
 .form-row {
     margin-bottom: 40px;
     display: flex;
+    background-color: pink;
+    padding: 30px;
+    border: 2px white solid;
     justify-content: flex-start;
     flex-direction: column;
     flex-wrap: wrap;
+    border-radius: 5%;
   }
   
   .form-row input[type='text'],
@@ -86,7 +84,7 @@ ul{
     width: 100%;
     padding: 7px;
     font-size: 14px;
-    margin-left: 20px;
+    margin-left: 10px;
   }
   
   .form-row label {
