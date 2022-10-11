@@ -27,7 +27,7 @@
     flex-wrap: wrap;
     padding: 50px 0;
     width: 100%;
-    justify-content: center;
+    justify-content: space-around;
     background-color: white;
     gap: 100px;
 }
@@ -35,18 +35,24 @@
     display: flex;
     border: 2px black solid;
     flex-direction: column ;
-    justify-content: space-between;
-    align-items:center;
+    align-items:flex-start;
+    align-self: flex-start;
     max-width: 200px;
+    max-height: 450px;
 }
 .item{
     display: flex;
     justify-content: center;
-    
 }
-    
 .text{
     display: flex;
+    width: 100%;
+    align-self: center;
     align-items: center;
-    border: 5px black solid;
+    border-top: 1px black solid;
+}
+@media only screen and (max-width: 500px) {
+.content{
+    flex-direction: column;
+}
 }
